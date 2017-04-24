@@ -1,0 +1,23 @@
+node_modules
+.DS_Store
+npm-debug.log
+obj/
+*.suo
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+**/dist/*
+**/build/js/*
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+mdl-electron/js/*
+mdl-react/js/*
+mdl-react-ts/js/*
+**/node_modules/*
+**/bower_components/*

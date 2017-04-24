@@ -1,0 +1,21 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowJs": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noEmitOnError": false,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "jsx": "react",
+    "outDir": "build/js/"
+  },
+  "files": [
+    "./typings/index.d.ts",
+    "./src/main.tsx"
+  ],
+  "exclude": [ "node_moduels" ]
+}
