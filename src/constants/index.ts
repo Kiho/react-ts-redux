@@ -11,12 +11,6 @@ export const LOGIN_USER_RESET = 'App/LOGIN_USER_RESET';
 export const LOGOUT_USER = 'App/LOGOUT_USER';
 export const FORM_RESET = 'redux-form/RESET';
 
-//export const PROJECT_BY_ID = 'App/PROJECT_BY_ID';
-//export const PROJECT_ADD = 'App/PROJECT_ADD';
-//export const PROJECT_EDIT = 'App/PROJECT_EDIT';
-//export const PROJECT_DELETE = 'App/PROJECT_DELETE';
-//export const PROJECT_LIST = 'App/PROJECT_LIST';
-
 export const GET_LIST_PENDING = 'App/GET_LIST_PENDING';
 export const GET_LIST_SUCCESS = 'App/GET_LIST_SUCCESS';
 export const GET_LIST_ERROR = 'App/GET_LIST_ERROR';

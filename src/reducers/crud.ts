@@ -1,5 +1,4 @@
 ﻿import { EntityType, createNew } from '../model';
-import {  } from '../model';
 import {
     GET_BY_ID_PENDING,
     GET_BY_ID_SUCCESS,
@@ -105,7 +104,6 @@ function crudFor(resource: EntityType) {
                 return merge(state, data);
 
             case POST_SUCCESS:                
-                // Promise was return JSON data - POST
                 data = onFetchSuccess(action.payload);
                 return merge(state, data);
 
@@ -118,8 +116,6 @@ function crudFor(resource: EntityType) {
                 return merge(state, data);
 
             case PUT_SUCCESS:
-                // Promise was not return JSON data - PUT
-                // data = onPostSuccess();
                 data = onFetchSuccess(action.payload);
                 return merge(state, data);
 

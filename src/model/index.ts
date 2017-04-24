@@ -1,7 +1,7 @@
 ﻿import { Employee } from './employee';
 import { Department } from './department';
 
-export type EntityType = 'employee' | 'department' | 'project';
+export type EntityType = 'employee' | 'department';
 
 export const createNew = (path: EntityType) => {
     switch (path) {
