@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import { config } from '../package.json';
 
 const app = express();
-app.listen(3000);
+app.listen(3001);
 
 app.set('view engine', 'jade');
 app.set('views', path.join(__dirname, 'views'));
@@ -37,7 +37,7 @@ if (process.env.NODE_ENV !== 'production') {
     headers: { "Access-Control-Allow-Origin": "*" },
     noInfo: true,
     proxy: {
-      "/api/*": "http://127.0.0.1:3000"
+      "/api/*": "http://127.0.0.1:3001"
     }
   }).listen(8087, "localhost", () => { console.log('[WDS started on 8087]'); });
 } else {
