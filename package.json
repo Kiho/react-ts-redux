@@ -2,7 +2,7 @@
   "name": "react-ts-redux",
   "version": "1.0.0",
   "description": "React TS MDL Redux",
-  "main": "main.txs",
+  "main": "main.tsx",
   "scripts": {
     "start": "concurrently \"npm run webpack\" \"node server/index.js\"",
     "start:dev": "concurrently \"npm run webpack\" \"nodemon server/index.js -w server/\"",
